@@ -47,8 +47,8 @@ int main(){
                     pos ++;
                     palabra[pos]=toupper(palabra[pos]);
                 }
-                else
-                    palabra[pos] = tolower(frase[pos]);
+            else
+                palabra[pos] = tolower(frase[pos]);
 
     cout << "la palabra con title es: " << palabra << endl;
 
