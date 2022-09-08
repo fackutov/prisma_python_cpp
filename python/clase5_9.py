@@ -40,6 +40,7 @@ print (f'esta lista tiene {cant_numeros} elementos')
 
 '''
 
+# muestren la lista original y una modificada con el doble de cada numero de la lista
 
 for i in lista_numeros:
     print( i, end=' - ')
