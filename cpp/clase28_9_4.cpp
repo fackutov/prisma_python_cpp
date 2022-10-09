@@ -18,12 +18,14 @@ int main(){
     cout << "el numero 7: " << matriz_bi[1][1] << endl;
     cout << "el numero 2: " << matriz_bi[0][1] << endl;
 
-    cout << largo_matriz << endl;
+    cout << "largo matriz: " << largo_matriz << endl;
 
-    for(int fila = 0 ; fila < 2; fila++)  // de nada
+    for(int fila = 0 ; fila < 2; fila++){
         for(int columna = 0 ; columna< 4; columna++)
             cout << matriz_bi[fila][columna] << " ";
         cout << "\n";
+        }
+    cout << "\n";
 
     return 0;  
 }
